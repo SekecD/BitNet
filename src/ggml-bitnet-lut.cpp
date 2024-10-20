@@ -91,5 +91,6 @@ size_t ggml_bitnet_mul_mat_get_wsize(const ggml_tensor* src0, const ggml_tensor*
 int ggml_bitnet_get_type_bits(ggml_type type) {
     return (type == GGML_TYPE_TL2) ? 2 : (type == GGML_TYPE_Q4_0) ? 4 : 0;
 }
+// fix update
 
 #endif
